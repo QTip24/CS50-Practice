@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="/style/google-search.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm">
+            <a href="/">
+                <img src="/images/Search.png" alt="Search" width="40%">
+            </a>
+            <form class="container-fluid justify-content-end">
+                <a class="navbar-brand" href="/"><small>Home</small></a>
+            </form>
+        </nav>
+        <div id="navTitle">
+            <span>Advanced Search</span>
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <div class="advancedContainer">
+                <form class="container-fluid" action="https://www.google.com/search">
+                    <div class="lead w-100">
+                        <span>Find pages with...</span>
+                    </div>
+                    <div class="w-100">
+                        <div class="clear">
+                            <div class="searchType">
+                                <div class="typeLabel">
+                                    <label> all these words:</label>
+                                </div>
+                            </div>
+                            <div class="searchTypeInput">
+                                <div class="typePadding">
+                                    <input type="text" autofocus="autofocus" class="w-100" name="as_q">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100">
+                        <div class="clear">
+                            <div class="searchType">
+                                <div class="typeLabel">
+                                    <label> this exact word or phrase:</label>
+                                </div>
+                            </div>
+                            <div class="searchTypeInput">
+                                <div class="typePadding">
+                                    <input type="text" autofocus="autofocus" class="w-100" name="as_epq">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100">
+                        <div class="clear">
+                            <div class="searchType">
+                                <div class="typeLabel">
+                                    <label> any of these words:</label>
+                                </div>
+                            </div>
+                            <div class="searchTypeInput">
+                                <div class="typePadding">
+                                    <input type="text" autofocus="autofocus" class="w-100" name="as_oq">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100">
+                        <div class="clear">
+                            <div class="searchType">
+                                <div class="typeLabel">
+                                    <label> none of these words:</label>
+                                </div>
+                            </div>
+                            <div class="searchTypeInput">
+                                <div class="typePadding">
+                                    <input type="text" autofocus="autofocus" class="w-100" name="as_eq">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100">
+                        <div class="clear">
+                            <div class="searchType">
+                                <div class="typeLabel"></div>
+                            </div>
+                            <div class="searchTypeInput">
+                                <div style="text-align: end" class="typePadding">
+                                    <button type="submit" class="btn btn-primary">Advanced Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
